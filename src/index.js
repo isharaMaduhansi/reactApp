@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './cssFiles/index.css';
+import App from './components/App';
+import Post from './components/Post';
+import Content from './components/Content';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Post name="This is function based"/>
+    <Content/>
   </React.StrictMode>,
   document.getElementById('root')
 );
