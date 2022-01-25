@@ -10,28 +10,7 @@ import { Form} from 'react-bootstrap';
 
 export default function Content() {
   return (
-    // <Card sx={{ maxWidth: 2000 }}>
-    //   <CardMedia
-    //     component="img"
-    //     height="140"
-    //     image={image}
-    //     alt="green iguana"
-    //   />
-    //   <CardContent>
-    //     <Typography gutterBottom variant="h5" component="div">
-    //       Lizard
-    //     </Typography>
-    //     <Typography variant="body2" color="text.secondary">
-    //       Lizards are a widespread group of squamate reptiles, with over 6,000
-    //       species, ranging across all continents except Antarctica
-    //     </Typography>
-    //   </CardContent>
-    //   <CardActions>
-    //     <Button size="small">Share</Button>
-    //     <Button size="small">Learn More</Button>
-    //   </CardActions>
-    // </Card>
-
+    <div>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -52,6 +31,7 @@ export default function Content() {
         Submit
       </Button>
     </Form>
+    </div>
 
   );
 }

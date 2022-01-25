@@ -29,6 +29,7 @@ const Post = (props) => {
                 <input type={'button'} onClick={submit} value="Submit" />
             </div>
             <p>This is props name: {props.name}</p>
+            <a href="./Content" target="_blank">Visit W3Schools.com!</a>
         </div>
     );
 }
